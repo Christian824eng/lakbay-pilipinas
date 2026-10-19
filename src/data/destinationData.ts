@@ -1,5 +1,7 @@
 import { DestinationStory } from '../types';
-
+import viganImage from '../assets/images/vigan_calle_crisologo_heritage_1792417408520.jpg';
+import cebuImage from '../assets/images/cebu_osmena_pescador_scenic_1792417409377.jpg';
+import surigaoImage from '../assets/images/surigao_enchanted_river_1792417408296.jpg';
 export const DESTINATION_STORIES: DestinationStory[] = [
   {
     id: 'luzon-vigan',
@@ -9,7 +11,7 @@ export const DESTINATION_STORIES: DestinationStory[] = [
     locationName: 'Vigan City, Ilocos Sur',
     articleTitle: 'Walking Through History: Discovering Vigan City',
     subtitle: 'A journey through heritage streets, ancestral houses, traditional crafts, and Ilocano culture.',
-    heroImage: '/src/assets/images/vigan_calle_crisologo_heritage_1792417408520.jpg',
+    heroImage: viganImage,
     leadKicker: 'Northern Luzon Heritage & Living History',
     introduction: [
       'Vigan City is a well-known tourist destination in Ilocos Sur, located in Northern Luzon, Philippines. Situated near the western coast along the South China Sea, the city is globally recognized for its remarkably preserved Spanish colonial architecture, cobblestone streets, grand ancestral houses, traditional crafts, and distinctive cultural heritage.',
@@ -176,7 +178,7 @@ export const DESTINATION_STORIES: DestinationStory[] = [
     locationName: 'Cebu Province',
     articleTitle: 'Beyond the Coast: Exploring the Natural and Cultural Wonders of Cebu',
     subtitle: 'A destination of scenic mountain landscapes, marine attractions, colorful festivals, and beloved Filipino cuisine.',
-    heroImage: '/src/assets/images/cebu_osmena_pescador_scenic_1792417409377.jpg',
+    heroImage: cebuImage,
     leadKicker: 'Central Visayas Biodiversity & Cultural Heartland',
     introduction: [
       'Cebu is one of the most vibrant and multifaceted provinces in the Visayas archipelago. Long celebrated as the historic gateway of the Spanish arrival in 1521, modern Cebu extends far beyond its urban metropolis into a tapestry of rugged mountain ridges, verdant agricultural valleys, world-class marine reserves, and deeply entrenched religious and cultural celebrations.',
@@ -308,7 +310,7 @@ export const DESTINATION_STORIES: DestinationStory[] = [
     locationName: 'Surigao del Sur (Hinatuan)',
     articleTitle: 'The Blue Wonder of Mindanao: Discovering Hinatuan Enchanted River',
     subtitle: 'Exploring the remarkable waters, coastal scenery, and cultural heritage of Surigao del Sur.',
-    heroImage: '/src/assets/images/surigao_enchanted_river_1792417408296.jpg',
+    heroImage: surigaoImage,
     leadKicker: 'Eastern Mindanao Karst Hydrology & Indigenous Heritage',
     introduction: [
       'Surigao del Sur is a breathtaking coastal province located in the northeastern quadrant of Mindanao, directly facing the vast expanse of the Pacific Ocean. Its landscape is an awe-inspiring juxtaposition of rugged coastal headlands, mangrove estuaries, cascading waterfalls, and the verdant slopes of the Diwata Mountain Range.',
