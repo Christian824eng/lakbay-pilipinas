@@ -1,0 +1,6 @@
+{
+  "name": "Perlas ng Silangan - Philippine Travel Magazine & Guide",
+  "description": "Discover the beauty, culture, and stories of the Philippines across Luzon, Visayas, and Mindanao through curated travel stories, interactive map, and cultural research.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
