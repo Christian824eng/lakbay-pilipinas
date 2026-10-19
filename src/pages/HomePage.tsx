@@ -2,7 +2,10 @@ import React from 'react';
 import { InteractivePhilippineMap } from '../components/InteractivePhilippineMap';
 import { ArrowDown, ArrowRight, Sparkles, MapPin, Compass, Landmark, Waves, Trees } from 'lucide-react';
 import { PageView } from '../components/Navbar';
-
+import heroImage from '../assets/images/philippines_hero_landscape_1792417407988.jpg';
+import viganImage from '../assets/images/vigan_calle_crisologo_heritage_1792417408520.jpg';
+import cebuImage from '../assets/images/cebu_osmena_pescador_scenic_1792417409377.jpg';
+import surigaoImage from '../assets/images/surigao_enchanted_river_1792417408296.jpg';
 interface HomePageProps {
   onNavigate: (page: PageView, storySlug?: string) => void;
 }
