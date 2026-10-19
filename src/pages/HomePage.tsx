@@ -25,7 +25,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
         {/* Background Landscape Photo with Soft Contrast Scrim */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/philippines_hero_landscape_1792417407988.jpg"
+            src={heroImage}
             alt="Breathtaking Philippine archipelago with turquoise waters and limestone islands"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center scale-105 transform motion-safe:animate-subtle-zoom"
@@ -160,7 +160,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
             <div className="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-xs hover:shadow-md transition-shadow flex flex-col group">
               <div className="relative aspect-4/3 overflow-hidden bg-slate-100">
                 <img
-                  src="/src/assets/images/vigan_calle_crisologo_heritage_1792417408520.jpg"
+                  src={viganImage}
                   alt="Historic Calle Crisologo in Vigan City, Ilocos Sur"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -197,7 +197,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
             <div className="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-xs hover:shadow-md transition-shadow flex flex-col group">
               <div className="relative aspect-4/3 overflow-hidden bg-slate-100">
                 <img
-                  src="/src/assets/images/cebu_osmena_pescador_scenic_1792417409377.jpg"
+                  src={cebuImage}
                   alt="Scenic mountains and coastline of Cebu"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -234,7 +234,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
             <div className="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-xs hover:shadow-md transition-shadow flex flex-col group">
               <div className="relative aspect-4/3 overflow-hidden bg-slate-100">
                 <img
-                  src="/src/assets/images/surigao_enchanted_river_1792417408296.jpg"
+                  src={surigaoImage}
                   alt="Hinatuan Enchanted River in Surigao del Sur, Mindanao"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
